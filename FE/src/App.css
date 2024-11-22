@@ -1,0 +1,319 @@
+.Title{
+  color: rgb(92, 92, 205);
+  font-size:x-large;
+  font-weight:900;
+}
+.nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.container-nav{
+    width: 10%;
+  
+}
+.flex{
+    display: flex;
+}
+.flex-around{
+    justify-content:space-around;
+}
+.w-90{
+    width: 85%;
+}
+.teachers{
+    margin-left: 120px;
+}
+.trinhdo{
+    margin-left: 185px;
+}
+.bomon{
+    margin-left: 200px;
+}
+.Tcongtac{
+    margin-left: 20px;
+}
+.diachi{
+    margin-left: 55px;
+    width: 55px;
+}
+.trangthai{
+    margin-left: 115px;
+}
+.hanhdong{
+    margin-left: 100px;
+}
+.taomoi{
+    margin-left: 70%;
+}
+.mt-10{
+    margin-top: 20px;
+}
+.form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content:flex-end;
+    /* align-items: center; */
+  
+  }
+  .form-container {
+    max-width: 800px;
+    width: 100%;
+    background-color: white;
+  }
+  .buttonX{
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 5px;
+    color: gray;
+  }
+  .form-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Thông tin cá nhân */
+  .personal-info {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .avatar {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .avatar-label {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .avatar-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px dashed #ddd;
+  }
+  
+  .avatar-input {
+    display: none;
+  }
+  
+  .fields {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .field-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .field-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .field-group input,
+  .field-group select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Thông tin công tác */
+  .work-info h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .work-info .field-group {
+    max-width: 300px;
+  }
+  
+  /* Học vị */
+  .education-info h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .education-info table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .education-info th,
+  .education-info td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .education-info th {
+    background-color: #f4f4f4;
+  }
+  
+  .education-info .empty-row {
+    text-align: center;
+  }
+  
+  /* Nút lưu */
+  .form-actions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .save-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+.them{
+    cursor: pointer;
+    margin-left: 96%;
+    margin-bottom: 3px;
+} 
+/* Form thêm thông tin học vị */
+.add-form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .add-form .field-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-form .field-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .add-form .field-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-form .save-button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .add-form .save-button:hover {
+    background-color: #218838;
+  }
+  /* Container for pagination */
+.pagination-container {
+  display: flex;
+  justify-content: center; /* Canh giữa */
+  align-items: center;
+  gap: 20px; /* Khoảng cách giữa các phần tử */
+  margin: 20px 0; /* Khoảng cách trên và dưới */
+}
+
+/* Style for page number display */
+.pagination-container span {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  padding: 8px 15px;
+  border-radius: 4px;
+  background-color: #f0f0f0; /* Nền nhẹ */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Style for buttons */
+.pagination-container button {
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  background-color: white;
+  color: #007bff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+/* Hover effect for buttons */
+.pagination-container button:hover {
+  background-color: #007bff;
+  color: white;
+  transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+}
+
+/* Active button */
+.pagination-container button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Disabled button */
+.pagination-container button:disabled {
+  background-color: #e0e0e0;
+  color: #aaa;
+  cursor: not-allowed;
+}
